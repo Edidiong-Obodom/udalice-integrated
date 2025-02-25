@@ -1,23 +1,10 @@
-import Image from "next/image";
-import Link from "next/link";
-import { Mail, Phone, Leaf, Shield, TrendingUp, Truck } from "lucide-react";
+import Image from "next/image"
+import Link from "next/link"
+import { Mail, Phone, Leaf, Shield, TrendingUp, Truck } from "lucide-react"
 
-import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
+import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 
 export default function LandingPage() {
   return (
@@ -26,36 +13,24 @@ export default function LandingPage() {
         <div className="container flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/udalice-icon.jpg"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-UtULsryng8vFMEuSCGg5Kk7dRbfpby.png"
               alt="Udalice Logo"
               width={140}
               height={50}
-              // className="h-10 w-auto"
+              className="h-10 w-auto"
             />
           </Link>
           <nav className="hidden md:flex gap-6">
-            <Link
-              href="#products"
-              className="text-sm font-medium hover:text-primary"
-            >
+            <Link href="#products" className="text-sm font-medium hover:text-primary">
               Products
             </Link>
-            <Link
-              href="#about"
-              className="text-sm font-medium hover:text-primary"
-            >
+            <Link href="#about" className="text-sm font-medium hover:text-primary">
               About Us
             </Link>
-            <Link
-              href="#specifications"
-              className="text-sm font-medium hover:text-primary"
-            >
+            <Link href="#specifications" className="text-sm font-medium hover:text-primary">
               Specifications
             </Link>
-            <Link
-              href="#contact"
-              className="text-sm font-medium hover:text-primary"
-            >
+            <Link href="#contact" className="text-sm font-medium hover:text-primary">
               Contact
             </Link>
           </nav>
@@ -76,9 +51,8 @@ export default function LandingPage() {
                     Leading Supplier of Palm Kernel Products from Nigeria
                   </h1>
                   <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                    Your trusted partner for high-quality palm kernel shells,
-                    palm kernel cake, and whole palm kernels sourced directly
-                    from sustainable operations across Nigeria.
+                    Your trusted partner for high-quality palm kernel shells, palm kernel cake, and whole palm kernels
+                    sourced directly from sustainable operations across Nigeria.
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-4">
@@ -92,7 +66,7 @@ export default function LandingPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/udalice-img3.jpg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-j2WD00ky059nDaNZ49qFD2C1ams5lY.png"
                   alt="Palm Kernel Plantation"
                   width={600}
                   height={400}
@@ -108,25 +82,20 @@ export default function LandingPage() {
         <section id="products" className="py-20">
           <div className="container px-4 md:px-6">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-                Our Products
-              </h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Our Products</h2>
               <p className="mt-4 text-gray-500">
-                Premium quality palm kernel products for various industrial
-                applications
+                Premium quality palm kernel products for various industrial applications
               </p>
             </div>
             <div className="grid gap-8 md:grid-cols-3">
               <Card>
                 <CardHeader>
                   <CardTitle>Palm Kernel Shells (PKS)</CardTitle>
-                  <CardDescription>
-                    Premium renewable energy source
-                  </CardDescription>
+                  <CardDescription>Premium renewable energy source</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <Image
-                    src="/udalice-img.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-5XD5h1X5udbfxENXfHLRXPPZa0hpSa.png"
                     alt="Palm Kernel Shells"
                     width={400}
                     height={300}
@@ -143,13 +112,11 @@ export default function LandingPage() {
               <Card>
                 <CardHeader>
                   <CardTitle>Palm Kernel Cake (PKC)</CardTitle>
-                  <CardDescription>
-                    Protein-rich feed ingredient
-                  </CardDescription>
+                  <CardDescription>Protein-rich feed ingredient</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <Image
-                    src="/udalice-img1.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-f4Xzx4xKh8wR7C7Bmjl3Wk1Rg1phx5.png"
                     alt="Palm Kernel Cake"
                     width={400}
                     height={300}
@@ -170,7 +137,7 @@ export default function LandingPage() {
                 </CardHeader>
                 <CardContent>
                   <Image
-                    src="/udalice-img2.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-aTFKhGFl8O2E8gnPvhxGKXA894qhA2.png"
                     alt="Whole Palm Kernels"
                     width={400}
                     height={300}
@@ -193,12 +160,10 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-12 lg:grid-cols-2">
               <div className="space-y-4">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-                  Why Choose Udalice Integrated
-                </h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Why Choose Udalice Integrated</h2>
                 <p className="text-gray-500">
-                  We combine expertise, quality, and reliability to deliver the
-                  best palm kernel products to our global clients.
+                  We combine expertise, quality, and reliability to deliver the best palm kernel products to our global
+                  clients.
                 </p>
               </div>
               <div className="grid gap-8 sm:grid-cols-2">
@@ -206,36 +171,28 @@ export default function LandingPage() {
                   <Shield className="h-6 w-6 text-green-600" />
                   <div>
                     <h3 className="font-semibold">Quality Assurance</h3>
-                    <p className="text-sm text-gray-500">
-                      Rigorous quality control meeting international standards
-                    </p>
+                    <p className="text-sm text-gray-500">Rigorous quality control meeting international standards</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <Leaf className="h-6 w-6 text-green-600" />
                   <div>
                     <h3 className="font-semibold">Sustainability</h3>
-                    <p className="text-sm text-gray-500">
-                      Commitment to responsible sourcing practices
-                    </p>
+                    <p className="text-sm text-gray-500">Commitment to responsible sourcing practices</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <TrendingUp className="h-6 w-6 text-green-600" />
                   <div>
                     <h3 className="font-semibold">Competitive Pricing</h3>
-                    <p className="text-sm text-gray-500">
-                      Favorable pricing through established logistics
-                    </p>
+                    <p className="text-sm text-gray-500">Favorable pricing through established logistics</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <Truck className="h-6 w-6 text-green-600" />
                   <div>
                     <h3 className="font-semibold">Reliable Delivery</h3>
-                    <p className="text-sm text-gray-500">
-                      5000 metric tons monthly capacity
-                    </p>
+                    <p className="text-sm text-gray-500">5000 metric tons monthly capacity</p>
                   </div>
                 </div>
               </div>
@@ -246,9 +203,7 @@ export default function LandingPage() {
         {/* Specifications Section */}
         <section id="specifications" className="py-20">
           <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-8 text-center">
-              Product Specifications
-            </h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-8 text-center">Product Specifications</h2>
             <Table>
               <TableHeader>
                 <TableRow>
@@ -259,9 +214,7 @@ export default function LandingPage() {
               </TableHeader>
               <TableBody>
                 <TableRow>
-                  <TableCell className="font-medium">
-                    Palm Kernel Shells (PKS)
-                  </TableCell>
+                  <TableCell className="font-medium">Palm Kernel Shells (PKS)</TableCell>
                   <TableCell>
                     <ul className="list-disc list-inside">
                       <li>Moisture: 13-18% (max)</li>
@@ -269,14 +222,10 @@ export default function LandingPage() {
                       <li>Calorific Value: 3500-4000 Kcal</li>
                     </ul>
                   </TableCell>
-                  <TableCell>
-                    Biomass power generation, Industrial boilers
-                  </TableCell>
+                  <TableCell>Biomass power generation, Industrial boilers</TableCell>
                 </TableRow>
                 <TableRow>
-                  <TableCell className="font-medium">
-                    Palm Kernel Cake (PKC)
-                  </TableCell>
+                  <TableCell className="font-medium">Palm Kernel Cake (PKC)</TableCell>
                   <TableCell>
                     <ul className="list-disc list-inside">
                       <li>Protein: 16-18%</li>
@@ -284,14 +233,10 @@ export default function LandingPage() {
                       <li>Moisture: 8-10%</li>
                     </ul>
                   </TableCell>
-                  <TableCell>
-                    Animal feed, Aquaculture, Organic fertilizer
-                  </TableCell>
+                  <TableCell>Animal feed, Aquaculture, Organic fertilizer</TableCell>
                 </TableRow>
                 <TableRow>
-                  <TableCell className="font-medium">
-                    Whole Palm Kernels
-                  </TableCell>
+                  <TableCell className="font-medium">Whole Palm Kernels</TableCell>
                   <TableCell>
                     <ul className="list-disc list-inside">
                       <li>Oil content: 45-50%</li>
@@ -311,12 +256,10 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-12 lg:grid-cols-2">
               <div className="space-y-6">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-                  Start Your Partnership Today
-                </h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Start Your Partnership Today</h2>
                 <p className="text-gray-500">
-                  Contact us to discuss how Udalice Integrated can supply your
-                  business with premium palm kernel products from Nigeria.
+                  Contact us to discuss how Udalice Integrated can supply your business with premium palm kernel
+                  products from Nigeria.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-4">
@@ -336,18 +279,13 @@ export default function LandingPage() {
               <Card>
                 <CardHeader>
                   <CardTitle>Request Information</CardTitle>
-                  <CardDescription>
-                    Fill out the form below and we&apos;ll get back to you shortly.
-                  </CardDescription>
+                  <CardDescription>Fill out the form below and we'll get back to you shortly.</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <form className="space-y-4">
                     <div className="grid gap-4 sm:grid-cols-2">
                       <div className="space-y-2">
-                        <label
-                          htmlFor="first-name"
-                          className="text-sm font-medium"
-                        >
+                        <label htmlFor="first-name" className="text-sm font-medium">
                           First name
                         </label>
                         <input
@@ -357,10 +295,7 @@ export default function LandingPage() {
                         />
                       </div>
                       <div className="space-y-2">
-                        <label
-                          htmlFor="last-name"
-                          className="text-sm font-medium"
-                        >
+                        <label htmlFor="last-name" className="text-sm font-medium">
                           Last name
                         </label>
                         <input
@@ -407,11 +342,11 @@ export default function LandingPage() {
         <div className="container flex flex-col gap-4 py-10 md:flex-row md:justify-between">
           <div className="flex flex-col gap-2">
             <Image
-              src="/udalice-icon.jpg"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-UtULsryng8vFMEuSCGg5Kk7dRbfpby.png"
               alt="Udalice Logo"
-              width={140}
-              height={50}
-              // className="h-10 w-auto"
+              width={120}
+              height={40}
+              className="h-8 w-auto"
             />
             <p className="text-sm text-gray-500">
               Registration No: 1371372
@@ -424,26 +359,17 @@ export default function LandingPage() {
               <h4 className="font-semibold">Company</h4>
               <ul className="space-y-1 text-sm">
                 <li>
-                  <Link
-                    href="#about"
-                    className="text-gray-500 hover:text-primary"
-                  >
+                  <Link href="#about" className="text-gray-500 hover:text-primary">
                     About Us
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href="#products"
-                    className="text-gray-500 hover:text-primary"
-                  >
+                  <Link href="#products" className="text-gray-500 hover:text-primary">
                     Products
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href="#contact"
-                    className="text-gray-500 hover:text-primary"
-                  >
+                  <Link href="#contact" className="text-gray-500 hover:text-primary">
                     Contact
                   </Link>
                 </li>
@@ -469,12 +395,12 @@ export default function LandingPage() {
         <div className="border-t">
           <div className="container py-4">
             <p className="text-center text-sm text-gray-500">
-              © {new Date().getFullYear()} Udalice Integrated Nig Limited. All
-              rights reserved.
+              © {new Date().getFullYear()} Udalice Integrated Nig Limited. All rights reserved.
             </p>
           </div>
         </div>
       </footer>
     </div>
-  );
+  )
 }
+
