@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Mail, Phone, Leaf, Shield, TrendingUp, Truck } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -73,7 +74,7 @@ export default function LandingPage() {
               <div className="space-y-8">
                 <div className="space-y-4">
                   <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl">
-                    Leading Supplier of Palm Kernel Products from Nigeria
+                    Leading Exporter of Palm Kernel Products from Nigeria
                   </h1>
                   <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                     Your trusted partner for high-quality palm kernel shells,
@@ -149,7 +150,7 @@ export default function LandingPage() {
                 </CardHeader>
                 <CardContent>
                   <Image
-                    src="/udalice-img1.jpg"
+                    src="/PKC.jpg"
                     alt="Palm Kernel Cake"
                     width={400}
                     height={300}
@@ -331,13 +332,28 @@ export default function LandingPage() {
                       +234 706 856 0657
                     </a>
                   </div>
+                  <div className="flex items-center space-x-4">
+                    <a
+                      href="https://wa.me/message/5YYCNNTRWIQ4B1"
+                      className="text-sm"
+                    >
+                      <FaWhatsapp className="h-5 w-5 text-green-600" />
+                    </a>
+                    <a
+                      href="https://wa.me/message/5YYCNNTRWIQ4B1"
+                      className="text-sm"
+                    >
+                      Whatsapp
+                    </a>
+                  </div>
                 </div>
               </div>
               <Card>
                 <CardHeader>
                   <CardTitle>Request Information</CardTitle>
                   <CardDescription>
-                    Fill out the form below and we&apos;ll get back to you shortly.
+                    Fill out the form below and we&apos;ll get back to you
+                    shortly.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -415,6 +431,8 @@ export default function LandingPage() {
             />
             <p className="text-sm text-gray-500">
               Registration No: 1371372
+              <br />
+              NEPC Registration No: 0037340
               <br />
               Federal Republic of Nigeria
             </p>
